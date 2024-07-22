@@ -9,3 +9,8 @@ console.log(dailywage.calDailyWage(employeeattendance));
 
 let parttimewage=require('./parttimemployee')
 console.log(parttimewage.partTimeWage());
+
+
+
+let wagePerMonth =require('./wageformonth')
+wagePerMonth.calWagePerMonth(1);
