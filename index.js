@@ -5,3 +5,6 @@ console.log(attendance.calAttendance()==1?"Present":"Absent");
 
 let dailywage =require('./dailywage')
 console.log(dailywage.calDailyWage(employeeAttendance));
+
+let parttimewage=require('./parttimemployee')
+console.log(parttimewage.partTimeWage());
