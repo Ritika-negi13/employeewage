@@ -1,7 +1,11 @@
 console.log("hello")
 
 let attendance=require('./employeeattendance')
-console.log(attendance.calAttendance()==1?"Present":"Absent");
+let employeeattendance=attendance.calAttendance();
+console.log(employeeattendance==1?"Present":"Absent");
 
 let dailywage =require('./dailywage')
-console.log(dailywage.calDailyWage(employeeAttendance));
+console.log(dailywage.calDailyWage(employeeattendance));
+
+let parttimewage=require('./parttimemployee')
+console.log(parttimewage.partTimeWage());
