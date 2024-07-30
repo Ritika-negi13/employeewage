@@ -1,4 +1,5 @@
 let hours=8, wagePerHour=20;
+
 function calDailyWage( employeeAttendance){
     if(employeeAttendance==0)
     {

@@ -13,4 +13,4 @@ console.log(parttimewage.partTimeWage());
 
 
 let wagePerMonth =require('./wageformonth')
-wagePerMonth.calWagePerMonth(1);
+wagePerMonth.calWagePerMonth();

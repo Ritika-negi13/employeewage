@@ -6,11 +6,3 @@ return employeeAttendance;
 module.exports={
     calAttendance:calAttendance
 }
-// if(employeeAttendance==1)
-// {
-//     console.log("Present");
-// }
-// else
-// {
-//     console.log("Absent");
-// }
